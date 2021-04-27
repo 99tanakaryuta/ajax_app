@@ -5,8 +5,10 @@ const buildHTML = (XHR) => {
       <div class="post-date">
         投稿日時 : ${item.created_at}
       </div>
+      <div class="post-content">
        ${item.content}
       </div>
+    </div>`;
   return html  
 }
 
